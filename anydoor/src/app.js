@@ -1,6 +1,6 @@
 const http = require('http');
 const conf = require('./config/defaultConfig');
-const chalk = require('chalk');
+// const chalk = require('chalk');
 
 
 const server = http.createServer((req,res)=>{
@@ -11,5 +11,6 @@ const server = http.createServer((req,res)=>{
 
 server.listen(conf.port,conf.host,() => {
   const addr = `http://${conf.host}:${conf.port}`;
-  console.log(`Server started at ${addr}`);
+  console.info(`Server started at ${addr}`);
 })
+
