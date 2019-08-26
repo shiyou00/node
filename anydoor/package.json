@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fix-lint": "eslint --fix .",
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,json,css}": [
+    "./src/*.{js,json,css}": [
+      "eslint --fix --",
       "prettier --write",
       "git add"
     ]

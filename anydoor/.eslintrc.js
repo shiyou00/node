@@ -18,7 +18,6 @@ module.exports = {
       {
         allow: ["warn", "error", "info"]
       }
-    ],
-    "prettier/prettier": "error"
+    ]
   }
 };
