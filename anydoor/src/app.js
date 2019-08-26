@@ -18,3 +18,8 @@ const app = {
   b: 5
 };
 console.info(app);
+
+if (app) {
+  /* comment */
+  return app;
+}
