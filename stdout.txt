@@ -1,3 +1,0 @@
-hello world!
-{ name: 'Jack', brother: { hobby: [ '篮球', '足球' ] } }
-计时器: 779.074ms
