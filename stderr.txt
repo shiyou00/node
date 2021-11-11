@@ -1,0 +1,9 @@
+错误日志记录
+Trace: 测试错误
+    at Object.<anonymous> (/Users/shiyou/Desktop/node/log/index.js:11:8)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
